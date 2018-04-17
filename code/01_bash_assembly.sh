@@ -12,4 +12,4 @@
 module load bioinfo-tools
 
 # Your commands
-canu \ -p 
+canu -assemble \ -p leptospirillum -d 
