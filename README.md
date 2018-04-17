@@ -10,3 +10,7 @@ Project planning with time estimates is almost done. Unfortunately the UPPMAX ac
 -------------------------------------------------------------------------------------------------------------------------------
 2018-04-12
 Since Uppmax will be shut down until monday next week, I took some extra time getting even more familiar with the article. I also went through the lecture slides for the De novo genome assembly, to get some answers for the "To think about" part underneath the Genome and Metagenome Assembly in the student manual. The question part underneath the Assembly evaluation also hade some answers in the lecture slides.
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-04-17
+Uppmax is still shut down due to maintenance. However, today we were able to download the files needed for the genome assembly. I added folders with guidence from the student manual. Hopefully, this will be a structured help later on in the analysis. I will try to do the genome assembly locally from home on my own computer. This will help the progress since Uppmax will most likely be shut down untill friday this week. 
