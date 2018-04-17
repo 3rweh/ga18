@@ -12,4 +12,4 @@
 module load bioinfo-tools
 
 # Your commands
-canu -assemble \ -p leptospirillum -d 
+canu -assemble \ -p 01_leptospirillum_assembly_result -d ga18/analyses/02_genome_assembly \ genomeSize=0.0m \ stopOnReadQuality=false \
