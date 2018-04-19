@@ -1,15 +1,19 @@
 #!/bin/bash -L
 
-#SBATCH -A g2018003_5
+#SBATCH -A g2018003_6
 #SBATCH -p core
 #SBATCH -n 2
-#SBATCH -t 00:00:00
-#SBATCH -J job_name
+#SBATCH -t 13:00:00
+#SBATCH -J genome_assembly
 #SBATCH --mail-typ=ALL
 #SBATCH --mail-user erikhedman2@gmail.com
 
 # Load modules
-module load bioinfo-tools
+module load bioinfo-tools canu/1.7
 
 # Your commands
-canu -assemble \ -p 01_leptospirillum_assembly_result -d ga18/analyses/02_genome_assembly \ genomeSize=0.0m \ stopOnReadQuality=false \
+canu -assemble \
+-p leptospirillum_assembly_result -d home/erwehe/Desktop/genome_analysis/ga18/analyses/02_genome_assembly \
+genomeSize=3.6m \ 
+stopOnReadQuality=false \
+-pacibio-raw proj/g2018003/nobackup/private/christel_2017/DNA_raw_data
