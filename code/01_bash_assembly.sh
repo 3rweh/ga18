@@ -12,8 +12,8 @@
 module load bioinfo-tools canu/1.7
 
 # Your commands
-canu -assemble \
--p leptospirillum_assembly_result -d home/erwehe/Desktop/genome_analysis/ga18/analyses/02_genome_assembly \
+canu \
+-p leptospirillum_assembly_result -d /home/erwehe/github/ga18/analyses/02_genome_assembly \
 genomeSize=3.6m \ 
 stopOnReadQuality=false \
--pacibio-raw proj/g2018003/nobackup/private/christel_2017/DNA_raw_data
+-pacibio-raw /proj/g2018003/nobackup/private/christel_2017/DNA_raw_data/ERR*.fastq.gz
