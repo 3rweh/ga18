@@ -1,6 +1,6 @@
 #!/bin/bash -L
 
-#SBATCH -A g20180003
+#SBATCH -A g2018003
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 13:00:00
