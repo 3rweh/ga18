@@ -14,3 +14,7 @@ Since Uppmax will be shut down until monday next week, I took some extra time ge
 -------------------------------------------------------------------------------------------------------------------------------
 2018-04-17
 Uppmax is still shut down due to maintenance. However, today we were able to download the files needed for the genome assembly. I added folders with guidence from the student manual. Hopefully, this will be a structured help later on in the analysis. I will try to do the genome assembly locally from home on my own computer. This will help the progress since Uppmax will most likely be shut down untill friday this week. 
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-04-19
+Today Uppmax was up and running! The genome assembly batch file was completed, and after som trail and error the work was succesfully uploaded to Uppmax. Therefore, all the thoughts of doing the genome assembly locally at home went out the window. Today's practise was really good and I got more familiar with the interface of Uppmax, and also how to get the batch file to work. Eva and Guilherme were super helpful and stayed over time. 
