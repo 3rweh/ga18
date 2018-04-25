@@ -18,3 +18,7 @@ Uppmax is still shut down due to maintenance. However, today we were able to dow
 -------------------------------------------------------------------------------------------------------------------------------
 2018-04-19
 Today Uppmax was up and running! The genome assembly batch file was completed, and after som trail and error the work was succesfully uploaded to Uppmax. Therefore, all the thoughts of doing the genome assembly locally at home went out the window. Today's practise was really good and I got more familiar with the interface of Uppmax, and also how to get the batch file to work. Eva and Guilherme were super helpful and stayed over time. 
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-04-25
+The results from the genome assembly was studied quickly, and then I created folders for the evaluation of the assembly. I did the evaluation and the annotation from a node on Uppmax. First I forgot to include the referencs assembly from the researchers. However, I fixed that before I went home. I also created the folders for the annoation results. The commands I executed in the node I saved as files in the code folder. Unfortunately, I didn't finnish the scripts for the trimming and for the BWA. I need to fix that before the lab on friday this week! 
