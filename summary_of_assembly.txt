@@ -1,0 +1,17 @@
+-- Assembly 'leptospirillum_assembly_result' finished in '/pica/h1/erwehe/github/ga18/analyses/02_ge$
+--
+-- Summary saved in 'leptospirillum_assembly_result.report'.
+--
+-- Sequences saved:
+--   Contigs	   -> 'leptospirillum_assembly_result.contigs.fasta'
+--   Unassembled   -> 'leptospirillum_assembly_result.unassembled.fasta'
+--   Unitigs	   -> 'leptospirillum_assembly_result.unitigs.fasta'
+--
+-- Read layouts saved:
+--   Contigs	   -> 'leptospirillum_assembly_result.contigs.layout'.
+--   Unitigs	   -> 'leptospirillum_assembly_result.unitigs.layout'.
+--
+-- Graphs saved:
+--   Contigs	   -> 'leptospirillum_assembly_result.contigs.gfa'.
+--   Unitigs	   -> 'leptospirillum_assembly_result.unitigs.gfa'.
+
