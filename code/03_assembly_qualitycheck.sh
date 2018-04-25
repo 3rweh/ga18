@@ -12,6 +12,5 @@
 module load bioinfo-tools python quast
 
 # Your commands
-./quast -o /home/erwehe/github/ga18/analyses/
+quast.py -o /home/erwehe/github/ga18/analyses/ -R /proj/g2018003/nobackup/private/christel_2017/reference/OBMB01.fasta
 /home/erwehe/github/ga18/analyses/02_genome_assembly/leptospirillum_assembly_result.contigs.fasta
--R /proj/g2018003/nobackup/private/christel_2017/reference/OBMB01.fasta
