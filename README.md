@@ -22,3 +22,7 @@ Today Uppmax was up and running! The genome assembly batch file was completed, a
 -------------------------------------------------------------------------------------------------------------------------------
 2018-04-25
 The results from the genome assembly was studied quickly, and then I created folders for the evaluation of the assembly. I did the evaluation and the annotation from a node on Uppmax. First I forgot to include the referencs assembly from the researchers. However, I fixed that before I went home. I also created the folders for the annoation results. The commands I executed in the node I saved as files in the code folder. Unfortunately, I didn't finnish the scripts for the trimming and for the BWA. I need to fix that before the lab on friday this week! 
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-04-26
+I finnished the Trimmomatic part. Got help from Eva through email on how to fix the problem with the path to the adapter. Ran the job on the node at Uppmax, and it I didn't have to wait for much time before entering the node. Put the out files from Trimmomatic in the ~/analyses/01_preprocessing. Unfortunately I didn't fix the BWA script. Have to ask at the lab tomorrow. Will probably need to sit this weekend to get the necessary parts done.
