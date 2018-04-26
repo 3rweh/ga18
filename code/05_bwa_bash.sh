@@ -4,7 +4,7 @@
 #SBATCH -p core
 #SBATCH -n 2
 #SBATCH -t 08:30:00
-#SBATCH -J assembly_qualitycheck
+#SBATCH -J bwa_analysis
 #SBATCH --mail-typ=ALL
 #SBATCH --mail-user erikhedman2@gmail.com
 
