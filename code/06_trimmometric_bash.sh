@@ -12,7 +12,8 @@
 module load bioinfo-tools 
 
 # Your commands
-java -jar trimmomatic-0.35.jar PE -threads 1 \
+java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE -threads 1 \
+-trimlog /home/erwehe/github/ga18/analyses/01_preprocessing/logfile.sh \
 # infiles
 /proj/g2018003/nobackup/private/christel_2017/RNA_raw_data/ERR2036629_1.fastq.gz \
 /proj/g2018003/nobackup/private/christel_2017/RNA_raw_data/ERR2036629_2.fastq.gz \
