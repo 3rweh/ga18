@@ -23,7 +23,7 @@ java -jar $TRIMMOMATIC_HOME/trimmomatic.jar PE -threads 1 \
 /home/erwehe/github/ga18/analyses/01_preprocessing/ERR2036629_S1.trim.fastq.gz \
 /home/erwehe/github/ga18/analyses/01_preprocessing/ERR2036629_S2.trim.fastq.gz \
 # :seed_mismatch:palindrome_clip:simple_clip
-ILLUMINACLIP:TruSeq3-PE.fa:2:30:10 \
+ILLUMINACLIP:$TRIMMOMATIC_HOME/adapters/TruSeq3-PE.fa:2:30:10 \
 LEADING:20 \
 TRAILING:20 \
 # :window_size:window_quality
