@@ -1,0 +1,359 @@
+[bwa_index] Pack FASTA... 0.04 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.76 seconds elapse.
+[bwa_index] Update BWT... 0.01 sec
+[bwa_index] Pack forward-only FASTA... 0.02 sec
+[bwa_index] Construct SA from BWT and Occ... 0.34 sec
+[main] Version: 0.7.17-r1188
+[main] CMD: bwa index -p index_BWA /home/erwehe/github/ga18/analyses/02_genome_assembly/leptospirillum_assembly_result.contigs.fasta
+[main] Real time: 1.543 sec; CPU: 1.174 sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::process] read 85998 sequences (10000080 bp)...
+[M::process] read 85794 sequences (10000016 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2659, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (212, 264, 315)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (6, 521)
+[M::mem_pestat] mean and std.dev: (265.44, 75.48)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 624)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 85998 reads in 4.771 CPU sec, 4.670 real sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::process] read 85834 sequences (10000116 bp)...
+[M::process] read 85576 sequences (10000184 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 1916, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (200, 253, 302)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 506)
+[M::mem_pestat] mean and std.dev: (253.72, 72.99)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 608)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 85834 reads in 4.801 CPU sec, 4.554 real sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::process] read 82850 sequences (10000067 bp)...
+[M::process] read 83228 sequences (10000188 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 25789, 7, 3)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (176, 228, 282)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 494)
+[M::mem_pestat] mean and std.dev: (232.18, 71.29)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 600)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 82850 reads in 5.068 CPU sec, 4.797 real sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::process] read 82332 sequences (10000119 bp)...
+[M::process] read 82650 sequences (10000086 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 26339, 11, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (154, 197, 249)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (205.72, 63.86)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 534)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (51, 110, 4025)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 11973)
+[M::mem_pestat] mean and std.dev: (2167.09, 2959.43)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 15947)
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_pestat] skip orientation RF
+[M::mem_process_seqs] Processed 82332 reads in 5.560 CPU sec, 5.301 real sec
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[M::process] read 85898 sequences (10000120 bp)...
+[M::process] read 85762 sequences (10000079 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2218, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (211, 254, 301)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (31, 481)
+[M::mem_pestat] mean and std.dev: (256.99, 67.56)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 571)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 85898 reads in 4.319 CPU sec, 4.073 real sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::process] read 85992 sequences (10000201 bp)...
+[M::process] read 85788 sequences (10000238 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2659, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (212, 264, 315)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (6, 521)
+[M::mem_pestat] mean and std.dev: (265.44, 75.48)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 624)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 85992 reads in 4.780 CPU sec, 4.533 real sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::process] read 85834 sequences (10000116 bp)...
+[M::process] read 85576 sequences (10000184 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 1916, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (200, 253, 302)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 506)
+[M::mem_pestat] mean and std.dev: (253.72, 72.99)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 608)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 85834 reads in 4.921 CPU sec, 4.676 real sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::process] read 82850 sequences (10000067 bp)...
+[M::process] read 83228 sequences (10000188 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 25789, 7, 3)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (176, 228, 282)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 494)
+[M::mem_pestat] mean and std.dev: (232.18, 71.29)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 600)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 82850 reads in 4.796 CPU sec, 4.526 real sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::process] read 82332 sequences (10000119 bp)...
+[M::process] read 82650 sequences (10000086 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (2, 26339, 11, 1)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (154, 197, 249)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 439)
+[M::mem_pestat] mean and std.dev: (205.72, 63.86)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 534)
+[M::mem_pestat] analyzing insert size distribution for orientation RF...
+[M::mem_pestat] (25, 50, 75) percentile: (51, 110, 4025)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (1, 11973)
+[M::mem_pestat] mean and std.dev: (2167.09, 2959.43)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 15947)
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_pestat] skip orientation RF
+[M::mem_process_seqs] Processed 82332 reads in 5.770 CPU sec, 5.560 real sec
+[M::bwa_idx_load_from_disk] read 0 ALT contigs
+[bam_sort] Use -T PREFIX / -o FILE to specify temporary and final output files
+Usage: samtools sort [options...] [in.bam]
+Options:
+  -l INT     Set compression level, from 0 (uncompressed) to 9 (best)
+  -m INT     Set maximum memory per thread; suffix K/M/G recognized [768M]
+  -n         Sort by read name
+  -t TAG     Sort by value of TAG. Uses position as secondary index (or read name if -n is set)
+  -o FILE    Write final output to FILE rather than standard output
+  -T PREFIX  Write temporary files to PREFIX.nnnn.bam
+      --input-fmt-option OPT[=VAL]
+               Specify a single input file format option in the form
+               of OPTION or OPTION=VALUE
+  -O, --output-fmt FORMAT[,OPT[=VAL]]...
+               Specify output format (SAM, BAM, CRAM)
+      --output-fmt-option OPT[=VAL]
+               Specify a single output file format option in the form
+               of OPTION or OPTION=VALUE
+      --reference FILE
+               Reference sequence FASTA FILE [null]
+  -@, --threads INT
+               Number of additional threads to use [0]
+[M::process] read 85898 sequences (10000120 bp)...
+[M::process] read 85762 sequences (10000079 bp)...
+[M::mem_pestat] # candidate unique pairs for (FF, FR, RF, RR): (0, 2218, 0, 0)
+[M::mem_pestat] skip orientation FF as there are not enough pairs
+[M::mem_pestat] analyzing insert size distribution for orientation FR...
+[M::mem_pestat] (25, 50, 75) percentile: (211, 254, 301)
+[M::mem_pestat] low and high boundaries for computing mean and std.dev: (31, 481)
+[M::mem_pestat] mean and std.dev: (256.99, 67.56)
+[M::mem_pestat] low and high boundaries for proper pairs: (1, 571)
+[M::mem_pestat] skip orientation RF as there are not enough pairs
+[M::mem_pestat] skip orientation RR as there are not enough pairs
+[M::mem_process_seqs] Processed 85898 reads in 4.464 CPU sec, 4.218 real sec
