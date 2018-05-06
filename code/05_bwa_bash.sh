@@ -15,33 +15,24 @@ module load samtools/1.6
 
 # Your commands
 bwa index -p index_BWA /home/erwehe/github/ga18/analyses/02_genome_assembly/leptospirillum_assembly_result.contigs.fasta;\
-bwa mem index_BWA \
-/home/erwehe/github/ga18/analyses/01_preprocessing/ERR2036629_P1.trim.fastq.gz \
-/home/erwehe/github/ga18/analyses/01_preprocessing/ERR2036629_P2_trim.fastq.gz | samtools sort - -O BAM -o 29_bwatobam.sorted;\
-bwa mem index_BWA \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036630_P1.trim.fastq.gz \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036630_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 30_bwa_mem.bam.sorted;\
-bwa mem index_BWA \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036631_P1.trim.fastq.gz \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036631_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 31_bwa_mem.bam.sorted;\
-bwa mem index_BWA \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036632_P1.trim.fastq.gz \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036632_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 32_bwa_mem.bam.sorted;\
-bwa mem index_BWA \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036633_P1.trim.fastq.gz \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036633_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 33_bwa_mem.bam.sorted;\
-bwa mem index_BWA \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117288_P1.trim.fastq.gz \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117288_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 88_bwa_mem.bam.sorted;\
-bwa mem index_BWA \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117289_P1.trim.fastq.gz \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117289_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 89_bwa_mem.bam.sorted;\
-bwa mem index_BWA \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117290_P1.trim.fastq.gz \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117290_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 90_bwa_mem.bam.sorted;\
-bwa mem index_BWA \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117291_P1.trim.fastq.gz \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117291_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 91_bwa_mem.bam.sorted;\
-bwa mem index_BWA \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117292_P1.trim.fastq.gz \
-/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2117292_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 92_bwa_mem.bam.sorted
+bwa mem -t 20 index_BWA \
+/home/erwehe/github/ga18/analyses/01_preprocessing/*29_P1*.gz \
+/home/erwehe/github/ga18/analyses/01_preprocessing/*29_P2*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*30_P1*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*30_P2*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*31_P1*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*31_P2*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*32_P1*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*32_P2*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*33_P1*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*33_P2*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*88_P1*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*88_P2*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*89_P1*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*89_P2*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*90_P1*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*90_P2*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*91_P1*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*91_P2*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*92_P1*.gz \
+/proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/*92_P2*.gz | samtools sort -@20 -O BAM -o out_sorted
