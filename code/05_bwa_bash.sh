@@ -17,7 +17,7 @@ module load samtools/1.6
 bwa index -p index_BWA /home/erwehe/github/ga18/analyses/02_genome_assembly/leptospirillum_assembly_result.contigs.fasta;\
 bwa mem index_BWA \
 /home/erwehe/github/ga18/analyses/01_preprocessing/ERR2036629_P1.trim.fastq.gz \
-/home/erwehe/github/ga18/analyses/01_preprocessing/ERR2036629_P2_trim.fastq.gz | samtools view -bShu - | samtools sort - 29_bwa_mem.bam.sorted;\
+/home/erwehe/github/ga18/analyses/01_preprocessing/ERR2036629_P2_trim.fastq.gz | samtools sort - -O BAM -o 29_bwatobam.sorted;\
 bwa mem index_BWA \
 /proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036630_P1.trim.fastq.gz \
 /proj/g2018003/nobackup/private/christel_2017/RNA_trimmed_reads/ERR2036630_P2.trim.fastq.gz | samtools view -bShu - | samtools sort - 30_bwa_mem.bam.sorted;\
