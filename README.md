@@ -26,3 +26,15 @@ The results from the genome assembly was studied quickly, and then I created fol
 -------------------------------------------------------------------------------------------------------------------------------
 2018-04-26
 I finnished the Trimmomatic part. Got help from Eva through email on how to fix the problem with the path to the adapter. Ran the job on the node at Uppmax, and it I didn't have to wait for much time before entering the node. Put the out files from Trimmomatic in the ~/analyses/01_preprocessing. Unfortunately I didn't fix the BWA script. Have to ask at the lab tomorrow. Will probably need to sit this weekend to get the necessary parts done.
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-04-27
+Struggled with the BWA script and didn't figure out how to combine BWA mem with SAMtools. Put the scripting on ice due to Valborg festivities.
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-05-06
+Started to work with the BWA script again. Took some extra time off due to illness. Got stuck and sent an email to the teachers.
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-05-07
+Got a good answer from Andrea and I think I figured out how to write the BWA script. Tested a sub part of the code in a node at Uppmax before sending it as a complete batch job. The final version executes the BWA MEM "two and two" and converts the result files into a bam file directly. This to save a lot of space. The first infiles have a size of around 900 mb each and the resulting bam file resulted in around 2.9 gb. The execution time ended at 55 minutes for the two first infiles. 
