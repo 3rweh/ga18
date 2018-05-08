@@ -4,3 +4,4 @@ analyses/02_genome_assembly
 analyses/03_genome_annotation
 analyses/04_quast_results
 analyses/01_preprocessing
+analyses/06_BWA_mem_output
