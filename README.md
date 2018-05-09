@@ -38,3 +38,12 @@ Started to work with the BWA script again. Took some extra time off due to illne
 -------------------------------------------------------------------------------------------------------------------------------
 2018-05-07
 Got a good answer from Andrea and I think I figured out how to write the BWA script. Tested a sub part of the code in a node at Uppmax before sending it as a complete batch job. The final version executes the BWA MEM "two and two" and converts the result files into a bam file directly. This to save a lot of space. The first infiles have a size of around 900 mb each and the resulting bam file resulted in around 2.9 gb. The execution time ended at 55 minutes for the two first infiles. 
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-05-08
+Today I worked on the HTSeq script from home and got help from Eva through email. Unfortunately I missunderstood some information and removed wrong lines from the result.contigs.gfa. I renamed this file to result_modified.contig.gfa. After this I removed the correct lines from the correct PROkkA file. The FASTA part of the lepto.gff file in the prokka annotation folder. Finally I run the batch job. However, I missed two input options so the results went to the thrash the day after. 
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-05-09
+Today I corrected the input options for the HTSeq and uploaded a job. Later I also uploaded a job for the homology search. 
+
