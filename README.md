@@ -45,5 +45,5 @@ Today I worked on the HTSeq script from home and got help from Eva through email
 
 -------------------------------------------------------------------------------------------------------------------------------
 2018-05-09
-Today I corrected the input options for the HTSeq and uploaded a job. Later I also uploaded a job for the homology search. 
+Today I corrected the input options for the HTSeq and uploaded a job. Later I also uploaded a job for the homology search. I discussed the reason on how to do the homology search with Alejandro and Andrea. The conclusion was that I could do a search with the PROKKA annotation, and lter discard the differences with the concatinated results from HTseq and deseq2 :) 
 
