@@ -6,5 +6,5 @@ analyses/04_quast_results
 analyses/01_preprocessing
 analyses/06_BWA_mem_output
 analyses/07_HTSeq_output
-code/slurm-3016907.out
+code/slurm*
 analyses/08_blastp_output
