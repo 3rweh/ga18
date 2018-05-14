@@ -8,3 +8,4 @@ analyses/06_BWA_mem_output
 analyses/07_HTSeq_output
 code/slurm*
 analyses/08_blastp_output
+analyses/09_DESeq2
