@@ -41,5 +41,29 @@ sum(resIHW$padj < 0.1, na.rm=TRUE)
 #
 metadata(resIHW)$ihwResult
 #
+jpeg('01_plotMA_contvsmineral.jpg')
 plotMA(res, ylim=c(-2,2))
-
+dev.off()
+#
+jpeg('02_plotMA_resLFC_contvsmineral.jpg')
+plotMA(res, ylim=c(-2,2))
+dev.off()
+#
+jpeg('03_plotCounts_resLFC_condition.jpg')
+plotCounts(ddsHTSeq, gene=which.min(resLFC$padj), intgroup="condition")
+dev.off()
+#
+sampleDists <- dist(t(assay(vsd)))
+library("RColorBrewer")
+sampleDistMatrix <- as.matrix(sampleDists)
+rownames(sampleDistMatrix) <- paste(vsd$condition)
+colnames(sampleDistMatrix) <- NULL
+colors <- colorRampPalette( rev(brewer.pal(9, "Blues")) )(255)
+jpeg('06_pheatmapBLUE_distVSD.jpg')
+pheatmap(sampleDistMatrix, clustering_distance_rows=sampleDists, \
+clustering_distance_cols=sampleDists, col=colors)
+dev.off()
+#
+jpeg('07_plotPCA_vsd.jpg')
+plotPCA(vsd, intgroup=c("condition"))
+dev.off()
