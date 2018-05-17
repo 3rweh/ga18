@@ -50,3 +50,7 @@ Today I corrected the input options for the HTSeq and uploaded a job. Later I al
 -------------------------------------------------------------------------------------------------------------------------------
 2018-05-16
 I kept on working with the DESeq2 analysis. I'm trying to figure out how to concatenate the continuous columns and the mineral columns. Almost there I believe. Found out that half of the RNA samples were duplicates. Strange.
+
+-------------------------------------------------------------------------------------------------------------------------------
+2018-05-17
+Almost completed the DESeq2 analysis. Will continue with the heatmap to extract some interesting subsets of the count results. Hopefully, these subsets can give som good hints of which genes are more presented in the different samples. This will also be something concrete to compare with the researchers' result. Completed a sipmle PCA plot and a sample-to-sample heatmp, which indicated that the continuous batches were not so similar as expected. Why? The bioleaching samples were much more similar, according to these two plots. It will be interesting to see if the subsets can give some more information about which genes to include in the more directed homology search.
