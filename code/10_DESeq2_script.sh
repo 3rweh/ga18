@@ -53,6 +53,8 @@ jpeg('03_plotCounts_resLFC_condition.jpg')
 plotCounts(ddsHTSeq, gene=which.min(resLFC$padj), intgroup="condition")
 dev.off()
 #
+
+#
 sampleDists <- dist(t(assay(vsd)))
 library("RColorBrewer")
 sampleDistMatrix <- as.matrix(sampleDists)
