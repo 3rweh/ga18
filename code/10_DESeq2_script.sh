@@ -68,14 +68,6 @@ summary(res05)
 # (mean count < 17)
 sum(res05$padj < 0.05, na.rm=TRUE)
 # 108
-library("IHW")
-resIHW <- results(ddsHTSeq, filterFun=ihw)
-summary(resIHW)
-#
-sum(resIHW$padj < 0.1, na.rm=TRUE)
-#
-metadata(resIHW)$ihwResult
-#
 png(file='01_plotMA_contvsmineral.png', width=800, height=650, res=200)
 plotMA(res, ylim=c(-2,2))
 dev.off()
