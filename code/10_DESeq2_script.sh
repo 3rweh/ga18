@@ -83,7 +83,7 @@ dev.off()
 library("pheatmap")
 select <- order(rowMeans(counts(ddsHTSeq,normalized=TRUE)), decreasing=TRUE)[1:91]
 ntd <- normTransform(ddsHTSeq)
-png(file='05_pheatmap_20genes.png', width=800, height=650, res=200)
+png(file='05_pheatmap_92genes.png', width=800, height=650, res=200)
 pheatmap(assay(ntd)[select,], cluster_rows=FALSE, show_rownames=FALSE,cluster_cols=TRUE)
 dev.off()
 #
